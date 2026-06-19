@@ -1,0 +1,1291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>comptage Ciclable 2024</name>
+    <description/>
+    <Style id="icon-1522-006064-normal">
+      <IconStyle>
+        <color>ff646000</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1522-006064-highlight">
+      <IconStyle>
+        <color>ff646000</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1522-006064">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1522-006064-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1522-006064-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1522-006064-nodesc-normal">
+      <IconStyle>
+        <color>ff646000</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1522-006064-nodesc-highlight">
+      <IconStyle>
+        <color>ff646000</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1522-006064-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1522-006064-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1522-006064-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1522-0288D1-labelson">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-1522-097138-normal">
+      <IconStyle>
+        <color>ff387109</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1522-097138-highlight">
+      <IconStyle>
+        <color>ff387109</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1522-097138">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1522-097138-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1522-097138-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1522-097138-nodesc-normal">
+      <IconStyle>
+        <color>ff387109</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1522-097138-nodesc-highlight">
+      <IconStyle>
+        <color>ff387109</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1522-097138-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1522-097138-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1522-097138-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1522-3949AB-nodesc-normal">
+      <IconStyle>
+        <color>ffab4939</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1522-3949AB-nodesc-highlight">
+      <IconStyle>
+        <color>ffab4939</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1522-3949AB-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1522-3949AB-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1522-3949AB-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1522-673AB7-nodesc-normal">
+      <IconStyle>
+        <color>ffb73a67</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1522-673AB7-nodesc-highlight">
+      <IconStyle>
+        <color>ffb73a67</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1522-673AB7-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1522-673AB7-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1522-673AB7-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1522-7CB342-nodesc-normal">
+      <IconStyle>
+        <color>ff42b37c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1522-7CB342-nodesc-highlight">
+      <IconStyle>
+        <color>ff42b37c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1522-7CB342-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1522-7CB342-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1522-7CB342-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1522-9C27B0-nodesc-normal">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1522-9C27B0-nodesc-highlight">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1522-9C27B0-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1522-9C27B0-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1522-9C27B0-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1522-C2185B-labelson">
+      <IconStyle>
+        <color>ff5b18c2</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-1522-C2185B-labelson-nodesc">
+      <IconStyle>
+        <color>ff5b18c2</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1522-F9A825-nodesc-normal">
+      <IconStyle>
+        <color>ff25a8f9</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1522-F9A825-nodesc-highlight">
+      <IconStyle>
+        <color>ff25a8f9</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1522-F9A825-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1522-F9A825-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1522-F9A825-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1522-FF5252-labelson">
+      <IconStyle>
+        <color>ff5252ff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-1522-FFEA00-nodesc-normal">
+      <IconStyle>
+        <color>ff00eaff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1522-FFEA00-nodesc-highlight">
+      <IconStyle>
+        <color>ff00eaff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1522-FFEA00-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1522-FFEA00-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1522-FFEA00-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1647-C2185B-labelson">
+      <IconStyle>
+        <color>ff5b18c2</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Folder>
+      <name>EVAV</name>
+      <Placemark>
+        <name>Annemasse Agglo</name>
+        <description>EVAV 2 pers</description>
+        <styleUrl>#icon-1522-097138</styleUrl>
+        <Point>
+          <coordinates>
+            6.2312626,46.1959787,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Gaillard Moillesulaz
+</name>
+        <description>EVAV 2 pers</description>
+        <styleUrl>#icon-1522-097138</styleUrl>
+        <Point>
+          <coordinates>
+            6.2068732,46.1921605,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Annemasse Clos Fleury
+</name>
+        <description>EVAV 2 pers</description>
+        <styleUrl>#icon-1522-097138</styleUrl>
+        <Point>
+          <coordinates>
+            6.2317462,46.192746,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Gaillard Fossard</name>
+        <description>EVAV 2 pers</description>
+        <styleUrl>#icon-1522-097138</styleUrl>
+        <Point>
+          <coordinates>
+            6.1954062,46.183636,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Gaillard Pont Noir (voie verte)</name>
+        <styleUrl>#icon-1522-097138-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            6.2151068,46.1937188,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ambilly Jura (voie verte)
+</name>
+        <styleUrl>#icon-1522-097138-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            6.224119,46.1944615,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>APICY</name>
+      <Placemark>
+        <name>Voie verte Divonne</name>
+        <description><![CDATA[description: ATE Vaud<br>nom: Voie verte Divonne]]></description>
+        <styleUrl>#icon-1522-0288D1-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="description">
+            <value>ATE Vaud</value>
+          </Data>
+          <Data name="nom">
+            <value>Voie verte Divonne</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            6.1646884,46.3725279,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>CERN</name>
+        <description><![CDATA[description: 3 comptages:<br>- vers Meyrin <br>- vers CERN<br>- vers Bourginy<br>nom: CERN]]></description>
+        <styleUrl>#icon-1522-FF5252-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="description">
+            <value>3 comptages:
+- vers Meyrin 
+- vers CERN
+- vers Bourginy</value>
+          </Data>
+          <Data name="nom">
+            <value>CERN</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            6.0346931,46.2392866,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Challex</name>
+        <description><![CDATA[description: <br>nom: Challex]]></description>
+        <styleUrl>#icon-1522-FF5252-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="description">
+            <value/>
+          </Data>
+          <Data name="nom">
+            <value>Challex</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            5.9911789,46.1772767,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Divonne->Chavanne]]></name>
+        <description><![CDATA[description: <br>nom: Divonne->Chavanne]]></description>
+        <styleUrl>#icon-1522-FF5252-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="description">
+            <value/>
+          </Data>
+          <Data name="nom">
+            <value><![CDATA[Divonne->Chavanne]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            6.1519184,46.3459462,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ferney</name>
+        <description><![CDATA[description: <br>nom: Ferney<br>]]></description>
+        <styleUrl>#icon-1522-FF5252-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="description">
+            <value/>
+          </Data>
+          <Data name="nom">
+            <value>Ferney
+</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            6.1215538,46.2478175,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ferney-Vireloup</name>
+        <description><![CDATA[description: Comptage dans les deux sens<br><br>nom: Ferney-Vireloup<br>]]></description>
+        <styleUrl>#icon-1522-FF5252-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="description">
+            <value>Comptage dans les deux sens
+</value>
+          </Data>
+          <Data name="nom">
+            <value>Ferney-Vireloup
+</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            6.1198347,46.2611045,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mategnin</name>
+        <description><![CDATA[description: 2 comptages:<br>- rd pt des Anneaux<br>- douane de Mategnin<br><br>nom: Mategnin<br>]]></description>
+        <styleUrl>#icon-1522-FF5252-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="description">
+            <value>2 comptages:
+- rd pt des Anneaux
+- douane de Mategnin
+</value>
+          </Data>
+          <Data name="nom">
+            <value>Mategnin
+</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            6.0886806,46.2411268,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pougny</name>
+        <description><![CDATA[description: <br>nom: Pougny]]></description>
+        <styleUrl>#icon-1522-FF5252-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="description">
+            <value/>
+          </Data>
+          <Data name="nom">
+            <value>Pougny</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            5.9647337,46.1442561,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>StJean de Gonville/Challex</name>
+        <description><![CDATA[description: <br>nom: StJean de Gonville/Challex<br>]]></description>
+        <styleUrl>#icon-1522-FF5252-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="description">
+            <value/>
+          </Data>
+          <Data name="nom">
+            <value>StJean de Gonville/Challex
+</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            5.9883357,46.1965512,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Versonnex</name>
+        <description><![CDATA[description: - vers frontière <br>- piste forestière<br><br>nom: Versonnex]]></description>
+        <styleUrl>#icon-1522-FF5252-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="description">
+            <value>- vers frontière 
+- piste forestière
+</value>
+          </Data>
+          <Data name="nom">
+            <value>Versonnex</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            6.1036252,46.2882263,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sauverny</name>
+        <description><![CDATA[description: Sauvergny<br>nom: Sauvergny]]></description>
+        <styleUrl>#icon-1522-FF5252-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="description">
+            <value>Sauvergny</value>
+          </Data>
+          <Data name="nom">
+            <value>Sauvergny</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            6.1200773,46.3116826,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>AERE</name>
+      <Placemark>
+        <name><![CDATA[REIGNIER_Giratoire d'Arthaz]]></name>
+        <styleUrl>#icon-1522-FFEA00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            6.2682868,46.1454632,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>REIGNIER_Rte de Marsinge / Rte de Viaison</name>
+        <styleUrl>#icon-1522-FFEA00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            6.2437207,46.1572031,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ETREMBIERES_RD2 / RD906a (ex-PN93)</name>
+        <styleUrl>#icon-1522-FFEA00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            6.2349567,46.1768974,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ETREMBIERES_Rte de St-Julien / Rte du Salève</name>
+        <styleUrl>#icon-1522-FFEA00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            6.2214353,46.175233,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ARTHAZ_Giratoire lavomatique</name>
+        <styleUrl>#icon-1522-FFEA00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            6.2761617,46.1622162,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PERS-JUSSY_Giratoire Casino</name>
+        <styleUrl>#icon-1522-FFEA00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            6.2693194,46.1209034,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[REIGNIER_Accès gare (Tour d'Yvoire)]]></name>
+        <styleUrl>#icon-1522-FFEA00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            6.2662295,46.1263467,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>REIGNIER_Giratoire Eglise/Jonquilles</name>
+        <styleUrl>#icon-1522-FFEA00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            6.2703494,46.1388528,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>REIGNIER_Giratoire de la Colline</name>
+        <styleUrl>#icon-1522-FFEA00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            6.268032,46.1331431,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Association Mobilité Douce Chablais</name>
+      <Placemark>
+        <name>Allinges / Thonon - Rond point des Fleysets</name>
+        <styleUrl>#icon-1522-006064-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            6.477102,46.352682,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Anthy / Thonon - Pont de Marclaz</name>
+        <description>Pont du Pamphiot</description>
+        <styleUrl>#icon-1522-006064</styleUrl>
+        <Point>
+          <coordinates>
+            6.447093,46.355287,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bons en Chablais - Gare</name>
+        <styleUrl>#icon-1522-006064-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            6.366401,46.26919,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Douvaine - Mairie</name>
+        <styleUrl>#icon-1522-006064-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            6.307081,46.304777,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Evian - Gare</name>
+        <styleUrl>#icon-1522-006064-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            6.577775,46.3982,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Marin / Thonon - Pont de Dranse</name>
+        <styleUrl>#icon-1522-006064-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            6.508729,46.382772,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Perrignier - Gare</name>
+        <styleUrl>#icon-1522-006064-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            6.425414,46.30332,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Thonon - Avenue d'Evian]]></name>
+        <description>Lycée Saint Joseph</description>
+        <styleUrl>#icon-1522-006064</styleUrl>
+        <Point>
+          <coordinates>
+            6.48482,46.37567,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Thonon - Carrefour Libération</name>
+        <styleUrl>#icon-1522-006064-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            6.478514,46.366942,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Thonon - Collège Champagne</name>
+        <description>Rue Henri Baud</description>
+        <styleUrl>#icon-1522-006064</styleUrl>
+        <Point>
+          <coordinates>
+            6.493566,46.379971,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Thonon - Ecole Jules Ferry</name>
+        <styleUrl>#icon-1522-006064-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            6.485916,46.374246,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Thonon - Embarcadère</name>
+        <styleUrl>#icon-1522-006064-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            6.477144,46.375093,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Thonon - Gare Place de Crête</name>
+        <styleUrl>#icon-1522-006064-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            6.482455,46.368321,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Thonon - Gare Parvis nord</name>
+        <styleUrl>#icon-1522-006064-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            6.48157,46.369346,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Thonon - Rond point J. Ferry G Andrier Pl des Arts Bld du Canal</name>
+        <styleUrl>#icon-1522-006064-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            6.4809428,46.370028,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Veigy - Douane</name>
+        <styleUrl>#icon-1522-006064-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            6.242672,46.272886,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Association du Préau</name>
+      <Placemark>
+        <name>Sous Lathoy</name>
+        <styleUrl>#icon-1522-F9A825-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            6.1077346,46.1429496,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>chemin de la Chécande
+</name>
+        <styleUrl>#icon-1522-F9A825-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            6.1196991,46.1426968,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>PRO VELO Genève</name>
+      <Placemark>
+        <name>BD Georges Favon</name>
+        <styleUrl>#icon-1522-C2185B-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            6.1401964,46.2023865,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Voie verte Eaux-Vives</name>
+        <styleUrl>#icon-1522-C2185B-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            6.1710443,46.2034465,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Rue de Lausanne</name>
+        <description><![CDATA[pro velo <br>hauteur jardin Botanique]]></description>
+        <styleUrl>#icon-1522-C2185B-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            6.1480769,46.2260737,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Route de Chancy 6B</name>
+        <description>hauteur Ministère Public</description>
+        <styleUrl>#icon-1522-C2185B-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            6.1226808,46.1928829,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Douane Veyrier</name>
+        <description>TEST APPLICATION BENOIT</description>
+        <styleUrl>#icon-1647-C2185B-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            6.188221,46.1665361,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Voie verte Bel-Air</name>
+        <description>3 personnes</description>
+        <styleUrl>#icon-1522-C2185B-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            6.1937869,46.1969526,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>rue de la Servette 47</name>
+        <styleUrl>#icon-1522-C2185B-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            6.1353879,46.2109717,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>rue de Lyon </name>
+        <description>Au niveau du parc Geisendorf TEST APPLICATION BENOIT</description>
+        <styleUrl>#icon-1647-C2185B-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            6.1314692,46.2087665,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Saint Julien</name>
+      <Placemark>
+        <name>Saint Julien - Chemin des Crottes</name>
+        <styleUrl>#icon-1522-3949AB-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            6.081698,46.150058,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Saint Julien - Douane de Perly</name>
+        <styleUrl>#icon-1522-3949AB-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            6.090078,46.151679,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Saint Julien - Stade de la Paguette</name>
+        <styleUrl>#icon-1522-3949AB-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            6.074859,46.148852,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Saint Julien - Douane de Certoux</name>
+        <styleUrl>#icon-1522-3949AB-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            6.073528,46.149428,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Viry - Soral 2</name>
+        <styleUrl>#icon-1522-3949AB-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            6.0351,46.134065,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Viry - Malagny</name>
+        <styleUrl>#icon-1522-3949AB-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            6.009811,46.140071,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Valleiry - La Joux</name>
+        <styleUrl>#icon-1522-3949AB-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            5.979567,46.128412,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Salève Vivant</name>
+      <Placemark>
+        <name>Landecy</name>
+        <styleUrl>#icon-1522-7CB342-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            6.131991,46.1413547,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Passage du marché</name>
+        <styleUrl>#icon-1522-7CB342-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            6.1367264,46.1427732,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Croix-de-Rozon</name>
+        <styleUrl>#icon-1522-7CB342-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            6.1381708,46.1436146,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pierre-Grand</name>
+        <styleUrl>#icon-1522-7CB342-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            6.1497579,46.1505124,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Troinex/Bossey</name>
+        <styleUrl>#icon-1522-7CB342-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            6.1613021,46.1544961,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Pays Rochois NATENV</name>
+      <Placemark>
+        <name>Arenthon, La Papeterie</name>
+        <styleUrl>#icon-1522-9C27B0-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            6.3649998,46.0830867,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bonneville, Prison</name>
+        <styleUrl>#icon-1522-9C27B0-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            6.4000244,46.0792916,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>St Pierre M. Bricolage</name>
+        <styleUrl>#icon-1522-9C27B0-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            6.3767531,46.0718981,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>St Pierre/Bonneville Rd point Borne/RN1203
+</name>
+        <styleUrl>#icon-1522-9C27B0-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            6.3960046,46.0727672,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Saint Pierre, Dessy
+</name>
+        <styleUrl>#icon-1522-9C27B0-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            6.3813434,46.0594339,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>La Roche, Biocoop
+</name>
+        <styleUrl>#icon-1522-9C27B0-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            6.3109345,46.0659042,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>La Roche, La Poste
+</name>
+        <styleUrl>#icon-1522-9C27B0-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            6.312697,46.0673913,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>La Roche, Gare</name>
+        <styleUrl>#icon-1522-9C27B0-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            6.3031194,46.0686163,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>La Roche Rte St Sixt/Andrevetan
+</name>
+        <styleUrl>#icon-1522-9C27B0-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            6.3180038,46.0609773,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>La Roche rd pt Enilv
+</name>
+        <styleUrl>#icon-1522-9C27B0-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            6.3006406,46.070882,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ayze Piste cyclable Bonneville Marignier</name>
+        <styleUrl>#icon-1522-9C27B0-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            6.4264838,46.0782195,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Cycla sur Léman (Chens)</name>
+      <Placemark>
+        <name>Douane Chens-Hermance</name>
+        <styleUrl>#icon-1522-673AB7-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            6.2477666,46.3030362,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
